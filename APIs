@@ -1,0 +1,40 @@
+1) Free API for Indian Addresses using Pincode & Postoffice name:
+    https://api.postalpincode.in/pincode/110001
+    
+    Response:
+            {
+               "Message":"Number of Post office(s) found: 2",
+               "Status":"Success",
+               "PostOffice":[
+                  {
+                     "Name":"New Delhi G.P.O.",
+                     "Description":"",
+                     "PINCode":"110001",
+                     "BranchType":"Head Post Office",
+                     "DeliveryStatus":"Delivery",
+                     "Circle":"New Delhi",
+                     "District":"New Delhi",
+                     "Division":"New Delhi GPO",
+                     "Region":"Delhi",
+                     "State":"Delhi",
+                     "Country":"India"
+                  },
+                  {
+                     "Name":"New Delhi South Ext-II",
+                     "Description":"",
+                     "PINCode":"110049",
+                     "BranchType":"Sub Post Office",
+                     "DeliveryStatus":"Non-Delivery",
+                     "Circle":"New Delhi",
+                     "District":"South Delhi",
+                     "Division":"New Delhi South",
+                     "Region":"Delhi",
+                     "State":"Delhi",
+                     "Country":"India"
+                  }
+               ]
+            }
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
