@@ -35,6 +35,45 @@
                ]
             }
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+1) Free API for International Addresses using Pincode:
+    https://api.worldpostallocations.com/v1/search?apikey=3999-615fb535-03f05b63-e4d1347e-08a452673ad64395b51&zip_code=500006&country_code=IN
 
+    for API KEY register here: https://app.worldpostallocations.com/register
+    
+    Response:
+            {
+                "message": "Success",
+                "status": true,
+                "result": [
+                    {
+                        "id": "397615",
+                        "country": "IN",
+                        "postalCode": "500006",
+                        "postalLocation": "Karwan Sahu",
+                        "state": "Telangana",
+                        "stateId": "40",
+                        "district": "Hyderabad",
+                        "districtId": "536",
+                        "province": "Asifnagar",
+                        "provinceId": "",
+                        "latitude": "17.3862",
+                        "longitude": "78.462"
+                    },
+                    {
+                        "id": "397614",
+                        "country": "IN",
+                        "postalCode": "500006",
+                        "postalLocation": "Mangalhat",
+                        "state": "Telangana",
+                        "stateId": "40",
+                        "district": "Hyderabad",
+                        "districtId": "536",
+                        "province": "Asifnagar",
+                        "provinceId": "",
+                        "latitude": "17.3862",
+                        "longitude": "78.462"
+                    }
+                ]
+            }
